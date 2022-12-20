@@ -1,21 +1,19 @@
-# AltLinux
-<img src="https://github.com/i-love-altlinux/AltLinux/blob/main/resources/4.png" alt="AltLinux Logo">
+# SideServer for Linux
 
-AltLinux is a GUI for AltServer-Linux that allows to easily sideload apps onto an iPhone, an iPad, or an iPod Touch. It supports iOS 12.2 and later.
+SideServer is a fork of AltLinux that allows to easily install SideStore or any sideload apps onto an iPhone, an iPad, or iPod Touch. Direct sideloading supports iOS 12.2 and later, while SideStore supports iOS 14.0 and later.
 
 Features:
 - A straightforward GUI
 - A tray menu that works just like on Windows
-- Sideloading AltStore
-- Sideloading apps without AltStore
-- While the tray icon is present, AltServer runs in the background in tethered mode
-- Launching the tray icon on start-up
+- Sideloading SideStore directly
+- Sideloading apps independently of SideStore
+- While the tray icon is present, SideServer runs in the background in tethered mode for USB connections (which is only needed if you don't have access to WiFi)
 
-The program is in its very early state, so if you're experiencing issues or want to help, you can join [the Discord server](https://discord.gg/vtvxYFAfAR).
+If you're experiencing issues or want to help, you can join the [SideStore Discord](https://bit.ly/altstore-delta-discord-invite).
 
-## Install AltLinux
+## Installing SideServer
 
-AltLinux is available for Ubuntu 22.04 and Ubuntu 20.04.
+SideServer is available for Ubuntu 22.04 and Ubuntu 20.04.
 
 Derivatives, such as Linux Mint and Pop!_ OS should also work. To make sure which DEB package to pick, run the following command:
 
@@ -31,7 +29,7 @@ python3 --version
 | elementary OS 7      | elementary OS 6   |
 | Zorin OS 17          | Zorin OS 16       |
 
-If you're running Ubuntu 22.04 or any distro based on it (such as Mint 21), install the DEB package [from here](https://github.com/i-love-altlinux/AltLinux/releases).
+If you're running Ubuntu 22.04 or any distro based on it (such as Mint 21), install the DEB package from [here](https://github.com/SideStore/SideServer-for-Linux/releases).
 
 If you're running Ubuntu 20.04 or any distro based on it (such as Mint 20), run the following commands:
 ```
@@ -40,17 +38,13 @@ sudo apt update
 sudo apt install libhandy-1-0 libhandy-1-dev
 ```
 
-Then you can install the DEB package [from here](https://github.com/i-love-altlinux/AltLinux/releases).
-
-If you use Arch Linux, you can use [the AUR package](https://aur.archlinux.org/packages/altlinux).
-
-There is also a [git version](https://aur.archlinux.org/packages/altlinux-git) of AltLinux available as an AUR package.
+Then you can install the DEB package [from here](https://github.com/SideStore/SideServer-for-Linux/releases).
 
 If you use Fedora, you can [run the script without installing](#run-the-script-without-installing).
 
-## Uninstall AltLinux
+## Uninstalling SideServer
 
-If you want to uninstall AltLinux, run the following commands:
+If you want to uninstall SideServer, run the following commands:
 
 ```
 sudo apt purge altlinux
@@ -79,7 +73,7 @@ Install the dependencies:
 sudo apt-get install binutils python3-pip git gir1.2-appindicator3-0.1 usbmuxd libimobiledevice6 libimobiledevice-utils wget curl libavahi-compat-libdnssd-dev zlib1g-dev unzip usbutils
 ```
 
-IF YOU'RE RUNNING UBUNTU 20.04 OR ITS [DERIVATIVES](https://github.com/i-love-altlinux/AltLinux#install-altlinux):
+IF YOU'RE RUNNING UBUNTU 20.04 OR ITS [DERIVATIVES](https://github.com/SideStore/SideServer-for-Linux#install-altlinux):
 ```
 sudo add-apt-repository ppa:apandada1/libhandy-1
 sudo apt update
@@ -88,7 +82,7 @@ sudo apt install libhandy-1-0 libhandy-1-dev
 
 Run the following commands:
 ```
-git clone https://github.com/i-love-altlinux/AltLinux
+git clone https://github.com/SideStore/SideServer-for-Linux
 ```
 
 ```
@@ -108,7 +102,7 @@ sudo dnf install binutils python3-pip git libappindicator-gtk3 usbmuxd libimobil
 
 Run the following commands:
 ```
-git clone https://github.com/i-love-altlinux/AltLinux
+git clone htthttps://github.com/SideStore/SideServer-for-Linux
 ```
 
 ```
@@ -128,7 +122,7 @@ sudo pacman -S binutils wget curl git python-pip libappindicator-gtk3 usbmuxd li
 
 Run the following commands:
 ```
-git clone https://github.com/i-love-altlinux/AltLinux
+git clone https://github.com/SideStore/SideServer-for-Linux
 ```
 
 ```
@@ -168,7 +162,7 @@ Reboot your computer for changes to take effect.
 
 After that, proceed by running the following commands:
 ```
-git clone https://github.com/i-love-altlinux/AltLinux
+git clone https://github.com/SideStore/SideServer-for-Linux
 ```
 
 ```
@@ -182,6 +176,8 @@ cd AltLinux
 The DEB file is ready! You can install it now.
 
 ## Credits
+AltLinux created by [maxasix](https://github.com/i-love-altlinux)
+
 AltServer-Linux made by [NyaMisty](https://github.com/NyaMisty)
 
 Artwork by [Nebula](https://github.com/itsnebulalol)
