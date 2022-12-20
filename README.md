@@ -176,7 +176,7 @@ cd AltLinux
 The DEB file is ready! You can install it now.
 
 ## Credits
-AltLinux created by [maxasix]([https://github.com/yourfriendoss)
+AltLinux created by [maxasix](https://github.com/yourfriendoss)
 
 AltServer-Linux made by [NyaMisty](https://github.com/NyaMisty)
 
