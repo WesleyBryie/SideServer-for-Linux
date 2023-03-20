@@ -4,15 +4,17 @@ _`SideServer` is a fork of [AltLinux](https://github.com/i-love-altlinux/AltLinu
 
 > Direct sideloading supports iOS 12.2 and later, while `SideStore` supports iOS 14.0 and later.
 
+[![Pylint](https://github.com/SideStore/SideServer-for-Linux/actions/workflows/pylint.yml/badge.svg)](https://github.com/SideStore/SideServer-for-Linux/actions/workflows/pylint.yml)
+
 ![Alt](https://repobeats.axiom.co/api/embed/835f4c1978a060e579fc45aedcdf43467bc42f02.svg "Repobeats analytics image")
 
 ## Features:
 
-- A straightforward GUI
-- A tray menu that works just like on Windows
-- Sideloading SideStore directly
-- Sideloading apps independently of SideStore
-- While the tray icon is present, SideServer runs in the background in tethered mode for USB connections (which is only needed if you don't have access to WiFi)
+  - A straight-forward GUI
+  - A tray menu that works just like on Windows
+  - Sideloading SideStore directly
+  - Sideloading apps independently of SideStore
+  - While the tray icon is present, SideServer runs in the background in tethered mode for USB connections (which is only needed if you don't have access to WiFi)
 
 If you're experiencing issues or want to help, you can join the [SideStore Discord](https://bit.ly/altstore-delta-discord-invite).
 
