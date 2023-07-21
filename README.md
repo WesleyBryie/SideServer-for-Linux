@@ -103,7 +103,7 @@ sudo dnf install binutils python3-pip git libappindicator-gtk3 usbmuxd libimobil
 Clone and build:
 
 ```bash
-git clone htthttps://github.com/SideStore/SideServer-for-Linux
+git clone https://github.com/SideStore/SideServer-for-Linux
 cd "SideServer-for-Linux"
 python3 main.py
 ```
