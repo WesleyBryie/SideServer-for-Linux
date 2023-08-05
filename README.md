@@ -16,7 +16,7 @@ _`SideServer-for-Linux` is a fork of [AltLinux](https://github.com/i-love-altlin
   - Sideloading apps independently of SideStore
   - While the tray icon is present, SideServer runs in the background in tethered mode for USB connections (which is only needed if you don't have access to WiFi)
 
-If you're experiencing issues or want to help, you can join the [SideStore Discord](https://bit.ly/altstore-delta-discord-invite).
+If you're experiencing issues or want to help, you can join the [SideStore Discord](https://discord.gg/sidestore-949183273383395328).
 
 ## Installing SideServer
 
