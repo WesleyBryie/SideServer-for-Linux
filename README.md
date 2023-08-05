@@ -1,6 +1,6 @@
 # SideServer for Linux
 
-_`SideServer` is a fork of [AltLinux](https://github.com/i-love-altlinux/AltLinux) that allows to easily install SideStore or any sideload apps onto an iPhone, an iPad, or iPod Touch._
+_`SideServer-for-Linux` is a fork of [AltLinux](https://github.com/i-love-altlinux/AltLinux) that allows to easily install SideStore or any sideload apps onto an iPhone, an iPad, or iPod Touch._
 
 > Direct sideloading supports iOS 12.2 and later, while `SideStore` supports iOS 14.0 and later.
 
